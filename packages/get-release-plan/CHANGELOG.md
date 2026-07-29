@@ -1,5 +1,12 @@
 # @changesets/get-release-plan
 
+## 5.0.0-next.10
+
+### Patch Changes
+
+- Updated dependencies [[`3910adf`](https://github.com/changesets/changesets/commit/3910adf3ebaef14196093715228885c4819d0cbf)]:
+  - @changesets/config@4.0.0-next.9
+
 ## 5.0.0-next.9
 
 ### Patch Changes

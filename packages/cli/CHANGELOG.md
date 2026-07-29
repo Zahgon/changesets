@@ -1,5 +1,21 @@
 # @changesets/cli
 
+## 3.0.0-next.11
+
+### Major Changes
+
+- [#2186](https://github.com/changesets/changesets/pull/2186) [`3910adf`](https://github.com/changesets/changesets/commit/3910adf3ebaef14196093715228885c4819d0cbf) Thanks [@Andarist](https://github.com/Andarist)! - Private packages are no longer versioned by default. Set `privatePackages` to `true` to opt into versioning and tagging them, or set `privatePackages.version` to `true` to version them without tagging.
+
+### Minor Changes
+
+- [#2135](https://github.com/changesets/changesets/pull/2135) [`fd7724a`](https://github.com/changesets/changesets/commit/fd7724ad63cee56f6868d3e7f140d51cd8f88932) Thanks [@youdie006](https://github.com/youdie006)! - Allow comma-separated values in array-valued CLI flags: the `--major`, `--minor`, and `--patch` flags of the `add` command, and the `--ignore` flag of the `version` command. For example, `--minor pkg-a,pkg-b` is now equivalent to `--minor pkg-a --minor pkg-b`. Surrounding whitespace is trimmed and empty entries are ignored.
+
+### Patch Changes
+
+- Updated dependencies [[`3910adf`](https://github.com/changesets/changesets/commit/3910adf3ebaef14196093715228885c4819d0cbf)]:
+  - @changesets/config@4.0.0-next.9
+  - @changesets/apply-release-plan@8.0.0-next.10
+
 ## 3.0.0-next.10
 
 ### Minor Changes
